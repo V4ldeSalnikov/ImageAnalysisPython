@@ -9,6 +9,7 @@ In this repository I have made several interactive websites using Python and str
 - Graph Cut segmentation :white_check_mark:
 - Morphological operations :white_check_mark:
 - Harris corner detector :red_circle:
+- Color clustering using K-Means :red_circle:
 
 ## Technologies Used
 
