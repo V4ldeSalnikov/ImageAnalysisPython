@@ -13,5 +13,5 @@ In this repository I have made several interactive websites using Python and str
 ## Technologies Used
 
 - **Main programming language**: Python
-- **Computer vision and numerical processing libraries**: `numpy`, `opencv`
+- **Computer vision and numerical processing libraries**: `numpy`, `opencv`, `scipy`
 - **Frontend**: Streamlit
