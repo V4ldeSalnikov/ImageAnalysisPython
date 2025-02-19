@@ -111,7 +111,6 @@ $$ K = \begin{pmatrix} -1 & 0 & 1 \\ -2 & 0 & 2 \\ -1 & 0 & 1 \end{pmatrix} $$""
 $$ I'(x,y) = I(x-1, y) $$""",
     }
 
-    # Allow user to upload an image, but use a default image if none is uploaded.
     uploaded_file = st.sidebar.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
     if uploaded_file is None:
         image = Image.open("lund.jpeg")
@@ -120,7 +119,6 @@ $$ I'(x,y) = I(x-1, y) $$""",
     else:
         image = Image.open(uploaded_file)
 
-    # Process the image.
     image = ImageOps.grayscale(image)
     image = image.resize((200, 200))
 
